@@ -140,14 +140,6 @@ The script generates WAV files with the following specifications (3CX compatible
 - Check the file path and ensure the CSV exists
 - Use absolute path if necessary: `-i /full/path/to/users.csv`
 
-## AWS Costs
-
-Amazon Polly charges per character:
-- Standard voices: $4.00 per 1 million characters
-- Neural voices: $16.00 per 1 million characters
-
-The default greeting (~80 characters) costs approximately $0.0003 per prompt.
-
 ## License
 
-MIT License - Free to use and modify.
+Apache 2.0 - Free to use and modify.
